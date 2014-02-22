@@ -3,7 +3,7 @@ package assetmap
 import "testing"
 
 func TestAssetMap(t *testing.T) {
-	assetMap := NewAssetMap("test/assets.json")
+	assetMap := NewAssetMap("test/assets.json", false)
 	assets := map[string]string{
 		"css/web-ui.css":   "css/web-ui-ac825658e28365c2.css",
 		"js/web-ui.js":     "js/web-ui-158a0a39012fb9dd.js",
